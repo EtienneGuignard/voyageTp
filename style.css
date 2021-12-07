@@ -1,0 +1,72 @@
+
+/* -------------------------------------END RESET--------------------------------------------------- */
+/* police
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+body,html{
+	background:rgba(187, 211, 255, 0.3);
+}
+#header-container-div {
+	height: 60vh;
+    background-image: url('img/BaltimoreRF.jpg');
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+	width: 100%; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.mask-div{
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	position: absolute;
+} 
+.text-header{
+	color: white;
+	text-align: center;
+}
+/* card all inclusive */
+.btn-div-card{
+	text-align: center;
+}
+.btn-a-card{
+	padding: 0.5rem 3rem;
+	border-radius: 0px;
+}
+
+.container-div-card{
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* page contact */
+.formContact_div{
+
+	background: rgba(0, 0, 0, 0.7);
+
+}
+
+td, th{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+	#header-container-div{
+		height: 70vh;
+	}
+}
+
