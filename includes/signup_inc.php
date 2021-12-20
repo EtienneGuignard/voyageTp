@@ -8,8 +8,7 @@ if (isset($_POST["submit"]))
     $email= $_POST["email"];
     $password= $_POST["password"];
     $pwdRepeat= $_POST["pwdRepeat"];
-   
-
+    
     //sign up control class
     include "../classes/dbh_classes.php";
     include "../classes/signup_classes.php";

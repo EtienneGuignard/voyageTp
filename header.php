@@ -40,6 +40,14 @@ setlocale(LC_TIME, "fr_FR", "French");
             <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
             <li class="nav-item"><a class="nav-link" href="signup.php">s'enregistrer</a></li>
             <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
+            <?php
+            if(isset($_SESSION['userid'])){?>
+                <li class="nav-item"><a class="nav-link" href=""><?php echo $_SESSION['login'] ?></a></li>
+                <li class="nav-item"><a class="nav-link" href="deconnexion.php">deco</a></li>
+            
+            <?php }
+            ?>
+
         </ul>
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
